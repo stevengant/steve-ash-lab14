@@ -1,6 +1,6 @@
 # steve-ash-lab14
 
-## project description
+## project requirements
 
 Create a new application using real-time events.
 Requirements
@@ -8,6 +8,13 @@ Application must employ the following programming concepts:
 A “hub” server that moderates all events
 Multiple “clients” that connect to the hub which can both publish and subscribe to events
 Must operate over a network
+
+## Project Description
+
+This project has clients which includes driver and 3 restaurants and a hub server. 
+
+Our app is a food delivery app. The hub server is responsible for moderating all events and sending them to the appropriate clients. The hub server is implemented using a TCP server. 
+
 
 ## author
 
